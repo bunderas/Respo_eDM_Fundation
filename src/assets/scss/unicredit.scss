@@ -11,16 +11,7 @@
 .right_padding{
 	padding-right: 30px;	
 }
-/*
-.headlogo{
-	padding-left: 30px;
-}
-*/
 
-.headsmall{
-	font-size:10px;
-	vertical-align: bottom;
-}
 .header{
 	background-image: url("../assets/img/header.jpg");
 	height: 130px;
@@ -28,54 +19,16 @@
 
 .bluerow{
 	background-color: #e2f4fa;
-	h2,.date{
+	h2{
 		margin-bottom: 0; 
 		font-size:12px; 
-		padding: 20px;	
 	}
 }
-.grayrow{
-	background-color: #eaeaea;
-	p{
-		font-size:10px; 
-	}
-}
-
 .maildate{
 	font-size:12px; 
 	font-weight:500; 	
 }
-.section{
-	.imgcol{
-	}
-	.txtcol{
-		h1{
-			line-height: 1.1;
-			padding-top: 20px;
-			padding-left: 25px;
-			padding-right: 25px;
-		}
 
-		p{
-			padding-left: 25px;
-			padding-right: 30px;			
-			padding-bottom: 10px;			
-		}
-	}
-	.txtcolleft{
-		h1{
-			line-height: 1.1;
-			padding-top: 20px;
-			padding-left: 50px;
-			padding-right: 25px;
-		}
-		p{
-			padding-left: 50px;
-			padding-right: 20px;			
-			padding-bottom: 10px;			
-		}
-	}
-}
 
 .rtl{
 	direction: rtl;	
@@ -84,11 +37,13 @@
 	direction: ltr;	
 }
 
-.sign{
-	font-size: 10px;	
+
+.grayrow{
+	background-color: #eaeaea;
 }
 
 h1{
+	line-height: 1.1;
 	font-size:18px; 
 	font-weight:700;  
 	color:$primary-color; 
