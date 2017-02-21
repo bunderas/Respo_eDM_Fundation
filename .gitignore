@@ -1,5 +1,6 @@
 /node_modules
 /etc
+config.json
 
 # Windows image file caches
 Thumbs.db

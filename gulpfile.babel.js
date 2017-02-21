@@ -37,6 +37,7 @@ gulp.task('litmus',
 // Build emails, then send to EMAIL
 gulp.task('mail',
   gulp.series('build', creds, aws, mail));
+  // gulp.series('build', creds, mail));
 
 // Build emails, then zip
 gulp.task('zip',
@@ -186,6 +187,7 @@ function mail() {
 
   return gulp.src('dist/**/*.html')
     .pipe($.if(!!awsURL, $.replace(/=('|")(\/?assets\/img)/g, "=$1"+ awsURL)))
+    .pipe($.if(!!awsURL, $.replace(/\:\w*url\w*\(\w*('|")?\.\.(\/?assets\/img)/g, ":url($1"+ awsURL)))
     .pipe($.mail(CONFIG.mail))
     .pipe(gulp.dest('dist'));
 }
