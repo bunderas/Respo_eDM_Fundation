@@ -439,7 +439,11 @@ html,
 
 .header {
   background-image: url("../assets/img/header.jpg");
+  background-position: center;
   height: 130px; }
+
+.section p {
+  text-align: justify; }
 
 .bluerow {
   background-color: #e2f4fa; }
@@ -459,6 +463,8 @@ html,
 
 .grayrow {
   background-color: #eaeaea; }
+  .grayrow p {
+    text-align: justify; }
 
 h1 {
   line-height: 1.1;

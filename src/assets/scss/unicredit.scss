@@ -14,7 +14,14 @@
 
 .header{
 	background-image: url("../assets/img/header.jpg");
+	background-position: center;
 	height: 130px;
+}
+
+.section{
+	p{
+		text-align: justify;
+	}
 }
 
 .bluerow{
@@ -40,6 +47,10 @@
 
 .grayrow{
 	background-color: #eaeaea;
+	p{
+		text-align: justify;
+	}
+
 }
 
 h1{
