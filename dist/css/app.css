@@ -439,11 +439,16 @@ html,
 
 .header {
   background-image: url("../assets/img/header.jpg");
-  background-position: center;
+  /*
+	background-position: center;
+	*/
+  background-repeat: no-repeat;
+  background-color: #fff;
   height: 130px; }
 
 .section p {
-  text-align: justify; }
+  hyphens: none;
+  text-align: left; }
 
 .bluerow {
   background-color: #e2f4fa; }

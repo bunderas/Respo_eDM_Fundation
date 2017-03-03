@@ -14,13 +14,29 @@
 
 .header{
 	background-image: url("../assets/img/header.jpg");
+	/*
 	background-position: center;
+	*/
+	background-repeat: no-repeat;
+	background-color: #fff;
 	height: 130px;
+	h1{	
+		padding-top: 5px;
+		font-family:Arial;	
+		color: #fff;
+		font-size: 25px;
+	}
+	h2{
+		font-family:Arial;	
+		color: #fff;
+		font-size: 22px;
+	}
 }
 
 .section{
 	p{
-		text-align: justify;
+		hyphens: none;
+		text-align: left;
 	}
 }
 
